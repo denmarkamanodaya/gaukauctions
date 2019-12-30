@@ -1,0 +1,9 @@
+{
+  "module": {
+    "namespace": "App",
+    "name": "Gauk",
+    "slug": "gauk_platform",
+    "description": "The Main Gauk Platform.",
+    "version": "2.0.41"
+  }
+}

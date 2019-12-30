@@ -1,0 +1,36 @@
+<?php
+
+
+return [
+    'user' => 'mysqlMainRemote',
+    'profile' => 'mysqlMainRemote',
+    'role' => 'mysqlMainRemote',
+    'permission' => 'mysqlMainRemote',
+    'permissionGroup' => 'mysqlMainRemote',
+    'permissionArea' => 'mysqlMainRemote',
+    'userMembership' => 'mysqlMainRemote',
+    'transactions' => 'mysqlMainRemote',
+    'userPurchase' => 'mysqlMainRemote',
+    'userPurchaseItems' => 'mysqlMainRemote',
+    'paymentGateway' => 'mysqlMainRemote',
+    'membershipTypes' => 'mysqlMainRemote',
+    'billingPlan' => 'mysqlMainRemote',
+    'ipnLog' => 'mysqlMainRemote',
+    'userNotifications' => 'mysqlMainRemote',
+    'webhookLog' => 'mysqlMainRemote',
+    'newsletter' => 'mysqlMainRemote',
+    'newsletterRoleMove' => 'mysqlMainRemote',
+    'newsletterSubscriber' => 'mysqlMainRemote',
+    'newsletterImport' => 'mysqlMainRemote',
+    'newsletterMail' => 'mysqlMainRemote',
+    'newsletterPages' => 'mysqlMainRemote',
+    'newsletterSentMail' => 'mysqlMainRemote',
+    'newsletterTemplates' => 'mysqlMainRemote',
+    'tickets' => 'mysqlMainRemote',
+    'ticketsStatus' => 'mysqlMainRemote',
+    'ticketsActivity' => 'mysqlMainRemote',
+    'ticketsDepartment' => 'mysqlMainRemote',
+    'ticketsMedia' => 'mysqlMainRemote',
+    'ticketsReplies' => 'mysqlMainRemote',
+    'ticketsUser' => 'mysqlMainRemote'
+];
