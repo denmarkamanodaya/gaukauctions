@@ -154,7 +154,8 @@ Route::group(['namespace' => 'Frontend'], function()
     Route::post('auctioneers', ['as' => 'public_auctioneers', 'uses' => 'Dealers@search']);
     Route::get('auctioneers', ['as' => 'public_auctioneers', 'uses' => 'Dealers@index']);
     Route::get('auctioneer/{id}', ['as' => 'public_auctioneer_show', 'uses' => 'Dealers@show']);
-
+	
+    Route::get('properties', ['as' => 'public_properties', 'uses' => 'Properties@index']);
 
     //temp export
     Route::get('tempexport/categories/{apikey}', ['as' => 'temp_export_categories', 'uses' => 'Export@categories']);
